@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>No 1 Tugas 14</title>
+</head>
+<body>
+  <script type="Javascript">
+    let a = parseInt(prompt("Masukan nilai a =\n (Integer Only)"));
+    let b = parseInt(prompt("Masukan nilai b =\n (Integer Only)"));
+    let c = parseInt(prompt("Masukan nilai c =\n (Integer Only)"));
+    let dt = hasil = (b * b) - (4 * a * c);
+    let ket;
+    if (dt == 0) {
+      ket = "Determinan 0 , Berada digaris kurva ";
+    } else if (dt > 0) {
+      ket = "Determinan > 0 , berada diatas garis kurva";
+    } else {
+      ket = "Determinan < 0 , berada dibawah garis kurva ";
+    }
+    tampil = " A :" + a + "\nB :" + b + "\nC :" + c + "\nDeterminan : " + dt + "\nKeterangan: " + ket;
+    alert(tampil);
+  </script>
+</body>
+</html>
